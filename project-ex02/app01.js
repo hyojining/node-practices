@@ -4,9 +4,9 @@
  * 
  */
 
-var math = require('./poscodx-math');
+var math = require('./poscodx-math'); // 현재 모듈에서 poscodx-math.js 파일 불러오기
 console.log(math.PI);
 console.log(math.min(10, 20, 5, 100, 1, 200, 3));
 console.log(math.max(10, 20, 5, 100, 1, 200, 3));
 
-console.log(math.a);
+console.log(math.a); // undefined
